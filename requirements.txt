@@ -1,0 +1,4 @@
+# Install everything with:  pip install -r requirements.txt
+openai>=1.40          # talks to the Groq API
+python-dotenv>=1.0    # reads your .env file
+gradio>=4.44          # builds the web chat page (only for chatbot_web.py)

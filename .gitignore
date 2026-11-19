@@ -1,0 +1,17 @@
+# ---- Secrets: NEVER upload these ----
+.env
+.env.*
+!.env.example
+
+# ---- Python junk files ----
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# ---- Gradio / editor / OS files ----
+.gradio/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
